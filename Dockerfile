@@ -6,9 +6,7 @@ LABEL org.label-schema.vendor="ephemeral972" \
     org.label-schema.description="Registry image with S3 storage configured for Marathon" \
     org.label-schema.usage="/src/README.md" \
     org.label-schema.url="https://github.com/seeker815/s3-registry" \
-    org.label-schema.version=1.0\
-    org.label-schema.schema-version="1.0" \
-    org.label-schema.docker.cmd.devel="" \
+    org.label-schema.version=1.1\
     org.label-schema.docker.params="AWS_BUCKET=S3 bucket name,\
     AWS_REGION=AWS Region to use,\
     AWS_KEY=Your account key,\
