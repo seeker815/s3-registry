@@ -20,6 +20,6 @@ ENV STORAGE_PATH="/" ENCRYPT=true SECURE=false
 
 ENTRYPOINT ["/docker-entrypoint.sh"]
 
-COPY /config.yml /etc/docker/registry/config.yml
+COPY distr-s3/config.yml /etc/docker/registry/config.yml
 
 CMD ["/etc/docker/registry/config.yml"]
