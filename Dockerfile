@@ -1,5 +1,5 @@
 FROM registry:2.6.2
-ARG "version=0.1.0-dev"
+ARG "version=0.2.0-dev"
 
 LABEL org.label-schema.vendor="ephemeral972" \
     org.label-schema.name="s3-registry" \
@@ -18,7 +18,7 @@ LABEL org.label-schema.vendor="ephemeral972" \
 
 ENV STORAGE_PATH="/" ENCRYPT=true SECURE=false
 
-ENTRYPOINT ["/docker-entrypoint.sh"]
+ENTRYPOINT ["distr-s3/docker-entrypoint.sh"]
 
 COPY distr-s3/config.yml /etc/docker/registry/config.yml
 
