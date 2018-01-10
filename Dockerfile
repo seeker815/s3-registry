@@ -18,7 +18,9 @@ LABEL org.label-schema.vendor="ephemeral972" \
 
 ENV STORAGE_PATH="/" ENCRYPT=true SECURE=false
 
-ENTRYPOINT ["distr-s3/docker-entrypoint.sh"]
+COPY distr-s3  /
+
+ENTRYPOINT ["/docker-entrypoint.sh"]
 
 COPY distr-s3/config.yml /etc/docker/registry/config.yml
 
