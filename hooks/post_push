@@ -1,0 +1,6 @@
+#!/bin/bash
+
+echo "Build hook running"
+docker build \
+  --build-arg CACHE_TAG=$(git rev-parse --short HEAD)\
+  -t $IMAGE_NAME .
