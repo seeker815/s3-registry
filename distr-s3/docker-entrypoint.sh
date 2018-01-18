@@ -30,4 +30,4 @@ cat $config_file | \
 # Run the Docker CMD passed in
 mv /tmp/config-registry.yml $config_file
 
-exec "$@"
+exec /entrypoint.sh "$@"
