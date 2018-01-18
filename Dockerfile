@@ -1,4 +1,6 @@
 FROM registry:2.6.2
+ARG VERSION=1.0.23 
+ARG BUILD_DATE
 
 LABEL org.label-schema.vendor="ephemeral972" \
     org.label-schema.name="s3-registry" \
