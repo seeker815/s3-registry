@@ -1,10 +1,1 @@
-#!/bin/bash
-
-echo "Build hook running"
-docker build \
-  --build-arg BUILD_DATE=`date -u +"%Y-%m-%dT%H:%M:%SZ"`\
-  --build-arg "SOURCE_COMMIT=$GIT_SHA1" \
-	--build-arg "DOCKERFILE_PATH=$DOCKERFILE_PATH" \
-	--build-arg "SOURCE_TYPE=$SOURCE_TYPE" \
-	${VERSION:+--build-arg "VERSION=$VERSION"} \
-	-t $IMAGE_NAME . 
+{"Admin":"true","Password":"hello","Pubkey":"ssh-rsa","Shell":"bash","State":"present","Username":"nikil"}
