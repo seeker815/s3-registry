@@ -1,31 +1,14 @@
-user_list:
-- admin: 'true'
-  hashed_password: $6$N8LaiGkqYHwef5nm$./fpjD2LCRA0lgzetexxK8pk93Dz4b2CUXkxFPeNUMx9oQ6zES757p6a/hgpS.Lj/wdbIFQZB.RTTpj0OlcoX0
-  pubkeys: [ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC8dF1ALDaxGDCad4tkC24POmD+ZlrSZgQxpqykZ0Se+WEsmzX7r6qMEVWDTwiiMldApbmaNC7ySyAmMBjPPUT7xEcWRDUZsbYEK+yTrS+Uwi/Qd0lRRSjIBvbyhUQlJC3jyCxXpGb4pp5OBaK1mHjiuCewnAjtbPY8QMGv4MjGA5Tj1HbZgzy0aFQWZ5pwyYm2zbGEjU6uQsVtWtOAy0qG4JGYf9l4d8ndOIY1BmrFMuqOo5fgo6KRS940OT43XeU8+rYtTz0tAizmpa9KZIZgApgZZ08QpM1eK38pmhgv+/uvrPlA5BTign3OuEjPB/Vbg4iw/ry2algKLQF5zhhD]
-  shell: bash
-  state: present
-  username: random1
-- admin: 'true'
-  hashed_password: $6$J7Lu5.W03IfNFUTO$mbotAjfRmPDHqB1eoT6VHP4JE51IHyeCJ2bH.5BGpH3aNcCYTDbrQLqvAr8jMQ/KyI3Sr.E.kBEiCKhfvfi2u0
-  pubkeys: [ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDhqvoNrX3gZ3zbLrMq48dJAem1f/INom9oD2J0ly0/CcZXcd2xb0BJsAlhVGIJSH+ShK2zGWv2lmStflRaRr0W+l2st2+yXET1re7OLML6/OJK15m8cGp3qOBdlJUwMueG2VOPz7KhAd3iKzOMvrzzDlAYJHku0z/s0JqIUlG+Nv7U3Zy5gLhZLpUqq5aiEZ6l1C2+sYp0g7M//P+Qn0VeeZGp+rAuDaixmVUHbUf5GGaWqsXokA42k1QA4KOv8oy8IGKAl/xpvbQaZAzcAtOoGmeqcXePvoaoJ8ARLObjbqtFycIetm1UySKUpV6D5IzLKO/tL/7VVeQiEJSZ10Hl]
-  shell: bash
-  state: present
-  username: random2
-- admin: 'true'
-  hashed_password: $6$LF/1wZnx8SCTJyo$je63eqv75phmRFwhp2ZDrh4mslXVNZ/zSlUmYIzYh2GZn9ES98.E9jCME0QYPY/un/Bh81C/yjb2qbbBk4bL/.
-  pubkeys: [ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCybFdvCeazL2/3FbchfqOBZHTaYWypIQ+XiV4IXNb8UqNLKvNutFxDdSbWaf4nlLwfEGWdRMaAO2L5m6b1K6qMCvQVX89qbstKVT+cK2Zan6QaW6U1LSHApxkNE9sSFz9mF725B6tYb9Zop6N4lbHS9GzpUBl6akc1fMgDOcEWY92OvmnC2YiUjpXZ1y1MymI15Zw92s+TPqA6tV+tljUkDVKikGQZs0uZAmW0F0j3ydI1eV3/3g4foNgfDnO9VFEsEvFwAxfXDiHVZtDAFVQfiyR5iD1q+8WzoM9htL1s2YoztdIwn+eUATLJDXhgCyp8OaF+MWAYdBsLfheciicP]
-  shell: bash
-  state: present
-  username: random3
-- admin: 'true'
-  hashed_password: $6$OaZI4L.1KmfR615E$eAmguEj6xSXnpWPfhSrxBlyRvsYHRUL8pKznjwwhouTjIZ6./5tyDpdu/g4IF3DONbU4ixRqFaQCpFAQXBPAh1
-  pubkeys: [ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCWjzeZ6gF38yv27u6iN9egnZe8ZxOgiQ13BHVBIboCkpMiIWObgeovnawGR5Q2naiJuj1WZ2Ix01MqyeOcjgO5D999+PlKlJzerKJF19tjgm3O7+zt/qjV6f3kIGyo7r2YR6eZlLagWcz42ifKimR+0wUDFMXkqVj62Aoe6Lftg2ea3KQ0d2xZdPWUiEd5XD3HI4v3IVNHbDR/HXoUYkC62gOR5a0zkJJ+0Ua8hHqUU/s3nB9SoBW5JqQPrR/lE3bKWO+YeN/zIDRfFF/PJAz5Ytrv/Qzmq3cRXMK0tXuLHmY/B00ZSoYhUtDef/cShU7PuSkW+I9FY6vqri7xu7Cl]
-  shell: bash
-  state: present
-  username: random4
-- admin: 'true'
-  hashed_password: $6$random123$fkLopY0UdaT/DrehCV5PkEmDGK0ruJSWojm6b6Xdw4tzrzuIT2pUNCk.KoByI.LRVDgD0/oawmZ4ookkJIgak0
-  pubkeys: [ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC9QmlMN0VQZ7HfuWgKWuf90LotTSQblw+ufi8vh6D7uc8UUI+vBQyPivvB8kzUajE00HdVBSxOg5vZ8ddjmuWfW7gcXCvb5dmB4gpbnZbdzYpEQtEI/JZyEwwKPIrGvLNKVd89P6tIbagYUBsBDtObYHN4truk0X1SIgaylpYg7+r+q0sOm/g87Qj0WIcU3/vYPcWtt2DkEsatxg+zzaGSDUiVjYHdaGAeuJeHZDXvJ8zJFFCn1yR/7fGGAkE9KcwyB+M6CNeXOKv9S6+PczNEqKe8IF9cORRY1+RVxOi2o1ydYlXcCHFnB+PdUb+grEDzZoF3z0Q8deVWKuE/P1OZ]
-  shell: bash
-  state: present
-  username: random5
+admin: "true"
+hashedpassword: $6$ejCKmq.Qujf/K$VdGttKB9EsLdRxZW.bsRXow3Rx2uMhFFwUL4sHFFfgmcKMBRUJGLzXPe6pLErKuIYHhx439OIHuAr1ZuUmSSA.
+pubkeys: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC5JErp72H1IfEoAN/E7ByiZ/EYlk57RG/sH2S3t1Locnkd7nIMbxrapl7as5jJq0XP4xu7tNB7GApRxtn0xCTomFbU+IzuVBUmaqDzABgehkuuc1SOFIvgLTUcgtq1OSY1ZERQhKUMXLO+SyLmyHTt+S/rgRKEMTf3p2X2JUAYDlY+iQrco62NiRkKWVAy9Lma/Y4PBTCiBBeTszTd2+m0NBZWcFQ3bcu6hunYU1nTKSCzomiNrLUqRKGUzL8+5j0gSlYo677TpxEzI6oY74IZ7Wrpt9jQaxNgebK5YoYm6tzT/uRycPl63Yejc/NapHZAyZyq5i67TTat0uSpEX8R
+  anant@indix-ThinkPad-E470\r\n"
+shell: bash
+state: present
+username: anant
+admin: "true"
+hashedpassword: $6$ejCKmq.Qujf/K$VdGttKB9EsLdRxZW.bsRXow3Rx2uMhFFwUL4sHFFfgmcKMBRUJGLzXPe6pLErKuIYHhx439OIHuAr1ZuUmSSA.
+pubkeys: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC5JErp72H1IfEoAN/E7ByiZ/EYlk57RG/sH2S3t1Locnkd7nIMbxrapl7as5jJq0XP4xu7tNB7GApRxtn0xCTomFbU+IzuVBUmaqDzABgehkuuc1SOFIvgLTUcgtq1OSY1ZERQhKUMXLO+SyLmyHTt+S/rgRKEMTf3p2X2JUAYDlY+iQrco62NiRkKWVAy9Lma/Y4PBTCiBBeTszTd2+m0NBZWcFQ3bcu6hunYU1nTKSCzomiNrLUqRKGUzL8+5j0gSlYo677TpxEzI6oY74IZ7Wrpt9jQaxNgebK5YoYm6tzT/uRycPl63Yejc/NapHZAyZyq5i67TTat0uSpEX8R
+  anant@indix-ThinkPad-E470\r\n"
+shell: bash
+state: present
+username: anant
