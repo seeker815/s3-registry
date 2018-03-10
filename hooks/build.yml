@@ -1,4 +1,4 @@
-user_list:
+
 - admin: "true"
   hashed_password: $6$N8LaiGkqYHwef5nm$./fpjD2LCRA0lgzetexxK8pk93Dz4b2CUXkxFPeNUMx9oQ6zES757p6a/hgpS.Lj/wdbIFQZB.RTTpj0OlcoX0
   pubkeys:
@@ -27,11 +27,4 @@ user_list:
   shell: bash
   state: present
   username: random4
-- admin: "true"
-  hashed_password: $6$random123$fkLopY0UdaT/DrehCV5PkEmDGK0ruJSWojm6b6Xdw4tzrzuIT2pUNCk.KoByI.LRVDgD0/oawmZ4ookkJIgak0
-  pubkeys:
-  - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC9QmlMN0VQZ7HfuWgKWuf90LotTSQblw+ufi8vh6D7uc8UUI+vBQyPivvB8kzUajE00HdVBSxOg5vZ8ddjmuWfW7gcXCvb5dmB4gpbnZbdzYpEQtEI/JZyEwwKPIrGvLNKVd89P6tIbagYUBsBDtObYHN4truk0X1SIgaylpYg7+r+q0sOm/g87Qj0WIcU3/vYPcWtt2DkEsatxg+zzaGSDUiVjYHdaGAeuJeHZDXvJ8zJFFCn1yR/7fGGAkE9KcwyB+M6CNeXOKv9S6+PczNEqKe8IF9cORRY1+RVxOi2o1ydYlXcCHFnB+PdUb+grEDzZoF3z0Q8deVWKuE/P1OZ
-  shell: bash
-  state: present
-  username: random5
-  username: anant
+
