@@ -1,8 +1,8 @@
 
-- admin: "true"
+  admin: "true"
   hashed_password: $6$N8LaiGkqYHwef5nm$./fpjD2LCRA0lgzetexxK8pk93Dz4b2CUXkxFPeNUMx9oQ6zES757p6a/hgpS.Lj/wdbIFQZB.RTTpj0OlcoX0
   pubkeys:
-  - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC8dF1ALDaxGDCad4tkC24POmD+ZlrSZgQxpqykZ0Se+WEsmzX7r6qMEVWDTwiiMldApbmaNC7ySyAmMBjPPUT7xEcWRDUZsbYEK+yTrS+Uwi/Qd0lRRSjIBvbyhUQlJC3jyCxXpGb4pp5OBaK1mHjiuCewnAjtbPY8QMGv4MjGA5Tj1HbZgzy0aFQWZ5pwyYm2zbGEjU6uQsVtWtOAy0qG4JGYf9l4d8ndOIY1BmrFMuqOo5fgo6KRS940OT43XeU8+rYtTz0tAizmpa9KZIZgApgZZ08QpM1eK38pmhgv+/uvrPlA5BTign3OuEjPB/Vbg4iw/ry2algKLQF5zhhD
+  ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC8dF1ALDaxGDCad4tkC24POmD+ZlrSZgQxpqykZ0Se+WEsmzX7r6qMEVWDTwiiMldApbmaNC7ySyAmMBjPPUT7xEcWRDUZsbYEK+yTrS+Uwi/Qd0lRRSjIBvbyhUQlJC3jyCxXpGb4pp5OBaK1mHjiuCewnAjtbPY8QMGv4MjGA5Tj1HbZgzy0aFQWZ5pwyYm2zbGEjU6uQsVtWtOAy0qG4JGYf9l4d8ndOIY1BmrFMuqOo5fgo6KRS940OT43XeU8+rYtTz0tAizmpa9KZIZgApgZZ08QpM1eK38pmhgv+/uvrPlA5BTign3OuEjPB/Vbg4iw/ry2algKLQF5zhhD
   shell: bash
   state: present
   username: random1
