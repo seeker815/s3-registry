@@ -36,3 +36,11 @@ user_list:
   shell: bash
   state: present
   username: anant
+- admin: "true"
+  hashed_password: $6$ejCKmq.Qujf/K$VdGttKB9EsLdRxZW.bsRXow3Rx2uMhFFwUL4sHFFfgmcKMBRUJGLzXPe6pLErKuIYHhx439OIHuAr1ZuUmSSA.
+  pubkeys:
+  - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC5JErp72H1IfEoAN/E7ByiZ/EYlk57RG/sH2S3t1Locnkd7nIMbxrapl7as5jJq0XP4xu7tNB7GApRxtn0xCTomFbU+IzuVBUmaqDzABgehkuuc1SOFIvgLTUcgtq1OSY1ZERQhKUMXLO+SyLmyHTt+S/rgRKEMTf3p2X2JUAYDlY+iQrco62NiRkKWVAy9Lma/Y4PBTCiBBeTszTd2+m0NBZWcFQ3bcu6hunYU1nTKSCzomiNrLUqRKGUzL8+5j0gSlYo677TpxEzI6oY74IZ7Wrpt9jQaxNgebK5YoYm6tzT/uRycPl63Yejc/NapHZAyZyq5i67TTat0uSpEX8R
+    anant@indix-ThinkPad-E470
+  shell: bash
+  state: present
+  username: anant
